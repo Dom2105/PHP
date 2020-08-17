@@ -1,0 +1,11 @@
+Aufgabe für den 18.08.2020,
+
+Erstellet bitte ein Konzept für eine Internet seite, der Inhalt ist euch überlassen. 
+Die Seite soll mit HTML, CSS und PHP am Ende Funktionieren. Funktionen die ihr eventuell machen könnt wären zb. eine Login Funktion oder 
+ein Dropdown Menue was über ein Array befüllt wird. Natürich ist dem ganzen keine Grenze gesetzt und ihr könnt gerne Kreativ sein. 
+Ob ihr das ganze aufschreibt, aufmalt oder direkt schon in HTML erstellt ist euch überlassen.
+
+Die Aufgabe soll die Vorbereitung sein um in der Woche vom 24.8 bis 28.8, das Gelernte selber anzuwenden. 
+
+Gruß 
+Dominic
