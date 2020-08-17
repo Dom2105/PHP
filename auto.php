@@ -25,7 +25,7 @@ $zahlGesamt = $zahl+$kommaZahl;
 echo $zahlGesamt;
 ?><br><hr><br>
 <?php 
-if ($boolean == true) {
+if ($zahl <> $zahl) {
     echo "ist wahr";
 }else {
     echo "ist falsch";
@@ -41,6 +41,57 @@ $gesamt = $preis + ($preis*MWST);
 echo $gesamt;
 ?><br><hr><br>
 
+<?php 
+    $userID = [
+        1,
+        2,
+        3,
+        4,
+        'Hallo'
+    ];
+
+    
+    
+
+    var_dump($userID);
+?><br><hr><br>
+
+<?php 
+echo $userID[2];
+?><br><hr><br>
+
+<?php 
+echo count($userID);
+?><br><hr><br>
+
+<?php
+ 
+for ($i=0; $i <= count($userID); $i++) { 
+    echo $userID[$i].'<br>';
+}
+$userID[] = "Franz";
+?><br><hr><br>
+
+<?php 
+foreach ($userID as $user) {
+    echo $user.'<br>';
+}
+?><br><hr><br>
+
+<?php
+$userDaten = [
+    #0
+    ["Peter","Wild",1],
+    #1
+    [2,"Hans","Gans"],
+    #2
+    [3,"Franz","Lustig"]
+];
+
+
+$userDaten[1][] = 2;
+echo $userDaten[1][3];
+?>
 
 
 
