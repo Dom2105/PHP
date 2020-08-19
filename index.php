@@ -7,14 +7,23 @@
 </head>
 <body>
     <?php 
-        echo 'edswgew';
-        print date('d.m.y');
-    ?><br><hr><br>
+     #   echo 'edswgew';
+      #  print date('d.m.y');
+    ?><!-- <br><hr><br> -->
 
     <?php 
-    include('./auto.php');
+   # include('./auto.php');
     ?>
 
+    <?php 
+    require('./mysql.php');
+    $add = $db->query("INSERT INTO person (userID,vorname,nachname) VALUES (1,'Hans','ZWEI')");
+    $add2 = $db->query("INSERT INTO person (userID,vorname,nachname) VALUES (2,'Hans','ZWEI')");
+    print_r(date('H:m:s'));
+    $erg = $db->query("SELECT * FROM person");
+    print_r($erg);
+    ?>
+    <form action=></form>
 
 </body>
 </html>
