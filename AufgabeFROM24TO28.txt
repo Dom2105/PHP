@@ -1,0 +1,21 @@
+Erstlle eine Webseite mit Hilfe von HTML, CSS und PHP.
+
+Die mit # gekenzeichneten stellen sind die Beispiele
+
+Hierbei sollen die Gelehrten PHP Skills aus der Woche vom 17.08.20 bis 21.08.20 angewendet werden.
+Diese Skills sind:  -Variablen #zum Übergeben von werten, unteranderem Dynamisch über die POST und GET functionen
+                    -Date funktion von php verwenden #zb eine Datumsanzeige mit Uhrzeit im Footer
+                    -Konstante #Lege einen festenwert fest der nicht veränderbar ist zb. eine Berechnung BMI, MWST etc.
+                    -Array #Gebe den Inhalt eines Gesamten Arrays wieder zb. Also Dropdown Menue oder um eine News zu befüllen.
+                    -IF else / Switch Case #um Abfragen zu machen zb. ob ein passwort in einem Login über einstimmt.
+                    -Klasse mit einem Object #nutze die Klasse mit Object um zb einen eingegebenen Text direkt wiederzugeben. 
+                     zb. Eine News Direkt zu schreiben.
+                    -Mysql verbindung aufbauen #Diese dann Nutzen um werte in eine Tabelle zu schreiben.
+                    
+                    
+Für die, die das schnell erledigt ist, können anfangen alle ihre erstellten Variablen, Functionen etc. mit der Datenbank zu verbinden.
+
+
+Viel Spaß damit!
+
+Die beispiele sind nur Ideen, klar könnt ihr die Skills auch anders oder öfter anwenden. Wenn Fragen aufkommen, einfach Fragen :) 
