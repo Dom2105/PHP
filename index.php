@@ -18,16 +18,24 @@
     <form action="./searchPerson.php" method="POST">
     <label><input type="Vornamen" name="sucheVorname" placeholder="Vorname"></label>
     <button>Schreiben</button><br><hr><br></form>
+
     <h3>Füge eine Person hinzu</h3>
     <form action="./addPerson.php" method="get">
     <label><input type="Name" name="name" placeholder="Name"></label>
     <label><input type="Nachname" name="nachname" placeholder="Nachname"></label>
+    <label><input type="id" name="id" placeholder="ID"></label>
     <button>Schreiben</button><br><hr><br></form>
+    
     <H3>Suche nach Exestierenden Personen und füge diese Hinzu</H3>
     <form action="./existPerson.php" method="POST">
     <label><input type="Name" name="existVorname" placeholder="Name"></label>
     <label><input type="Nachname" name="existNachname" placeholder="Nachname"></label>
     <button>Schreiben</button><br><hr><br></form>
 
+    <h3>Löschen einer Person über die ID</h3>
+    <form action="./deletePerson.php" method="POST">
+    <label><input type="Löschen" name="deleteID" placeholder="Bitte Id angeben"></label>
+    <button>Löschen</button>
+    </form>
 </body>
 </html>

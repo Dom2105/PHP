@@ -14,5 +14,5 @@ $createTable1 = $conn->query("CREATE TABLE $person (
             PRIMARY KEY(id)) ENGINE = INNODB
     ");
 #var_dump($conn->query("SELECT $person FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASETABLE' AND TABLE_CATALOG=$dbname"));
-
+mysqli_close($conn);
 ?>

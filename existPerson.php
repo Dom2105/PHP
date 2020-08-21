@@ -42,4 +42,6 @@ function checkExist($vorname,$nachname){
 
     return $notExist;
 }
+
+mysqli_close($conn);
 ?>

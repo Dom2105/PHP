@@ -65,5 +65,5 @@ $person2->druckeName();
 
 echo '<br>';
 
-
+mysqli_close($conn);
 ?>
